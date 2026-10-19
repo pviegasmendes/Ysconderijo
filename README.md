@@ -8,7 +8,7 @@ Plain static HTML and CSS with one small script: no build step, no dependencies.
 ## Structure
 
 ```
-public/               What gets published on Netlify
+public/               What gets published (GitHub Pages now, Netlify at launch)
   index.html          Portuguese version (main)
   en/index.html       English version
   es/index.html       Spanish version
@@ -19,12 +19,14 @@ public/               What gets published on Netlify
   img/                Photos (WebP in several widths + JPG fallback)
   404.html            Error page, in three languages
   favicon.svg         Browser tab icon (the logo's flower on oxblood)
-  robots.txt          Allows indexing of the whole site
-  _headers            Netlify headers: caching and security
+  robots.txt          Allows crawling (the draft is kept out of search by noindex)
+  _headers            Netlify headers: caching, security, draft noindex
+.github/workflows/    static.yml: publishes public/ to GitHub Pages on every push to main
 netlify.toml          Netlify config: which folder gets published
 PRODUCT.md            Product brief: audience, purpose, facts, evidence, open questions
-fotos-originais/      Source photos as downloaded (not published)
-.impeccable/          Design-process files: direction contract, decision sketches, review captures
+DESIGN.md             Design system (tokens, rules, components)
+fotos-originais/      Source photos as downloaded (local only, not in Git)
+.impeccable/          Design-process files: direction contract, design.json
 .claude/              Local preview server config
 ```
 
@@ -38,24 +40,35 @@ python -m http.server 5174 -d public
 
 Then open <http://localhost:5174> (Portuguese), <http://localhost:5174/en/> (English) or <http://localhost:5174/es/> (Spanish).
 
-## Deploy to Netlify
+## Publishing
 
-There is no build: Netlify publishes the `public/` folder as is, as set in `netlify.toml`.
+There is no build: whatever host serves the `public/` folder as is. Code: <https://github.com/pviegasmendes/Ysconderijo> (public repository, branch `main`).
 
-- **From Git (recommended):** push the project to GitHub and use *Add new site → Import an existing project*. Netlify reads `netlify.toml` on its own.
-- **Drag and drop:** *Add new site → Deploy manually* and drag **the `public/` folder** (not the project folder).
-- **CLI:** `npx netlify-cli deploy --prod`.
+### Now: draft for the owner on GitHub Pages
+
+<https://pviegasmendes.github.io/Ysconderijo/> (EN `/en/`, ES `/es/`), the same setup as barberia-diogo.
+
+- `.github/workflows/static.yml` publishes `public/` on every push to `main`.
+- Pages has to be switched on once in the repository: *Settings → Pages → Build and deployment → Source: GitHub Actions*.
+- GitHub Pages ignores `_headers` and `netlify.toml`. The draft stays out of search engines through the `robots` meta in the three pages.
+- `404.html` sets its own base URL, so it works under `/Ysconderijo/` on Pages and at the root on Netlify.
+
+### At launch: Netlify
+
+The Netlify site `ysconderijo-rascunho` already exists on the Digital Montra account (<https://app.netlify.com/projects/ysconderijo-rascunho>) and this folder is linked to it (`.netlify/state.json`, local, not in Git). On 19 October 2026 the account had used up the Free plan's monthly credits (300), which blocks new deploys until the credits renew on **3 November 2026** or more are added. Then either:
+
+- `npx netlify-cli deploy --prod --dir public`, or
+- connect the GitHub repository in Netlify (*Project configuration → Build & deploy → Link repository*) for automatic deploys; `netlify.toml` already says to publish `public/`.
 
 HTML, `estilo.css` and `site.js` are revalidated on every visit. Photos and icon are cached for 7 days (use a new filename to force a change); fonts for a year.
 
-### Once there is a domain
+### When the owner approves
 
-Add to the three pages:
-
-- `<link rel="canonical">` with the full URL of each version, and full URLs in the `hreflang` links (they are relative for now).
-- `url` and `image` in the structured-data block (`application/ld+json`).
-- `og:url` and `og:image` with a full URL (for example `https://domain.pt/img/sala-arcos.jpg`), so WhatsApp and social networks show a photo.
-- A `sitemap.xml` and its `Sitemap:` line in `robots.txt`.
+- Remove the draft mode: the `<meta name="robots" content="noindex">` line (and its comment) in the three pages, and the `X-Robots-Tag: noindex` line in `public/_headers`.
+- Point `og:url` and `og:image` (now on the GitHub Pages draft) at the final domain.
+- Add `<link rel="canonical">` with the full URL of each version, and full URLs in the `hreflang` links (they are relative for now).
+- Add `url` and `image` to the structured-data block (`application/ld+json`).
+- Add a `sitemap.xml` and its `Sitemap:` line in `robots.txt`.
 
 ## Design
 
@@ -95,4 +108,4 @@ Collected on 19 October 2026 from:
 - [ ] Which phone takes bookings (the site shows the mobile first and the landline second).
 - [ ] Hours and the summer holiday dates.
 - [ ] Original logo file.
-- [ ] Final domain (see "Once there is a domain").
+- [ ] Final domain (see "When the owner approves").
