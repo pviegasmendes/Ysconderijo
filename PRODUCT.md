@@ -8,7 +8,9 @@ web
 
 ## Stack
 
-Static HTML and CSS, no build step, same conventions as the sibling project `barberia-diogo`: `public/` is what Netlify publishes, fonts are self-hosted (no Google Fonts), photos ship as WebP with JPG fallback. Three language versions: Portuguese (Portugal) at `/` (main), English at `/en/`, Spanish at `/es/`. Confirmed by Pablo (Digital Montra), October 2026.
+Static HTML and CSS, no build step, same conventions as the sibling project `barberia-diogo`: `public/` is what gets published, fonts are self-hosted (no Google Fonts), photos ship as WebP with JPG fallback. Three language versions: Portuguese (Portugal) at `/` (main), English at `/en/`, Spanish at `/es/`. Confirmed by Pablo (Digital Montra), October 2026.
+
+Code in the public GitHub repository `pviegasmendes/Ysconderijo`. The draft for the owner is published on GitHub Pages (https://pviegasmendes.github.io/Ysconderijo/) and marked `noindex`; the Netlify site `ysconderijo-rascunho` is prepared for launch (the account's Free credits renew on 3 November 2026).
 
 ## Users
 
