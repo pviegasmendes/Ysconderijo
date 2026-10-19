@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 64 64">
+  <defs><ellipse id="p" cx="0" cy="-11.2" rx="3.6" ry="8.4"/></defs>
+  <circle cx="32" cy="32" r="32" fill="#5A2527"/>
+  <circle cx="32" cy="32" r="28.5" fill="none" stroke="#C99580" stroke-width="1.4"/>
+  <g fill="#C99580" transform="translate(32 32)">
+    <use xlink:href="#p"/><use xlink:href="#p" transform="rotate(45)"/><use xlink:href="#p" transform="rotate(90)"/><use xlink:href="#p" transform="rotate(135)"/>
+    <use xlink:href="#p" transform="rotate(180)"/><use xlink:href="#p" transform="rotate(225)"/><use xlink:href="#p" transform="rotate(270)"/><use xlink:href="#p" transform="rotate(315)"/>
+    <circle r="4.6" fill="#5A2527" stroke="#C99580" stroke-width="2"/>
+  </g>
+</svg>

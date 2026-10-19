@@ -1,0 +1,10 @@
+.netlify/
+
+# Full-resolution source photos from Tripadvisor: kept locally only (the
+# published, optimised versions live in public/img/). Owner permission pending.
+fotos-originais/
+
+# Design-process captures and decision sketches: large and regenerable.
+.impeccable/review/
+.impeccable/mocks/
+.impeccable/config.local.json

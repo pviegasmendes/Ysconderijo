@@ -1,0 +1,27 @@
+# Netlify headers. Works with Git, CLI and drag-and-drop deploys.
+# DRAFT: the owner has not approved the site yet, so search engines are told
+# not to index it (X-Robots-Tag below, plus the robots meta in the 3 pages).
+# Remove both at launch.
+
+/*
+  X-Content-Type-Options: nosniff
+  X-Frame-Options: DENY
+  Referrer-Policy: strict-origin-when-cross-origin
+  Permissions-Policy: camera=(), microphone=(), geolocation=()
+  X-Robots-Tag: noindex
+
+# HTML, estilo.css and site.js keep Netlify's default (revalidate on every
+# visit, cheap thanks to ETags). They change together on each deploy, so a
+# returning visitor never gets new HTML with an old stylesheet.
+
+# Photos and icon: 7 days. Filenames have no hash, so a replaced photo can take
+# up to a week to show for returning visitors; use a new filename to force it.
+/img/*
+  Cache-Control: public, max-age=604800
+
+/favicon.svg
+  Cache-Control: public, max-age=604800
+
+# Fonts never change once published.
+/fontes/*
+  Cache-Control: public, max-age=31536000, immutable

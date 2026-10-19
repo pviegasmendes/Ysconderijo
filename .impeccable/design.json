@@ -1,0 +1,454 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-19T14:19:53+00:00",
+  "title": "Design System: Restaurante Ysconderijo",
+  "extensions": {
+    "colorMeta": {
+      "mesa": {
+        "role": "neutral",
+        "displayName": "Night Table",
+        "canonical": "oklch(20.5% 0.007 0.8)",
+        "tonalRamp": [
+          "#0E0A0B",
+          "#272324",
+          "#433E3F",
+          "#615C5D",
+          "#817C7D",
+          "#A29D9E",
+          "#C8C2C4",
+          "#F3EDEE"
+        ]
+      },
+      "mesa-raised": {
+        "role": "neutral",
+        "displayName": "Lamplit Table",
+        "canonical": "oklch(24.2% 0.009 6.4)",
+        "tonalRamp": [
+          "#0F0A0A",
+          "#282223",
+          "#443E3F",
+          "#635B5D",
+          "#837B7C",
+          "#A49C9D",
+          "#CAC2C3",
+          "#F5ECED"
+        ]
+      },
+      "luz": {
+        "role": "neutral",
+        "displayName": "Candle White",
+        "canonical": "oklch(95.4% 0.007 67.7)",
+        "tonalRamp": [
+          "#0D0B08",
+          "#262321",
+          "#423F3C",
+          "#605D5A",
+          "#807C79",
+          "#A19E9A",
+          "#C7C3BF",
+          "#F2EEEA"
+        ]
+      },
+      "luz-suave": {
+        "role": "neutral",
+        "displayName": "Smoked Linen",
+        "canonical": "oklch(75.6% 0.013 35.7)",
+        "tonalRamp": [
+          "#100907",
+          "#2A2220",
+          "#463D3B",
+          "#655B58",
+          "#857B78",
+          "#A69C99",
+          "#CCC1BE",
+          "#F7ECE8"
+        ]
+      },
+      "porcelana": {
+        "role": "neutral",
+        "displayName": "Porcelain",
+        "canonical": "oklch(96.8% 0.005 78.3)",
+        "tonalRamp": [
+          "#0C0B09",
+          "#252422",
+          "#413F3D",
+          "#5F5D5B",
+          "#7F7D7A",
+          "#A09E9B",
+          "#C6C4C1",
+          "#F0EEEB"
+        ]
+      },
+      "porcelana-rim": {
+        "role": "neutral",
+        "displayName": "Porcelain Rim",
+        "canonical": "oklch(92.2% 0.008 61.4)",
+        "tonalRamp": [
+          "#0E0A08",
+          "#272320",
+          "#433F3C",
+          "#615D59",
+          "#817C79",
+          "#A29D9A",
+          "#C8C3BF",
+          "#F2EDE9"
+        ]
+      },
+      "porcelana-luz": {
+        "role": "neutral",
+        "displayName": "Glaze Highlight",
+        "canonical": "oklch(98.8% 0.003 84.6)",
+        "tonalRamp": [
+          "#0C0B0A",
+          "#252422",
+          "#40403E",
+          "#5E5D5C",
+          "#7E7D7B",
+          "#9F9E9C",
+          "#C5C4C2",
+          "#EFEEEC"
+        ]
+      },
+      "tinta": {
+        "role": "neutral",
+        "displayName": "Menu Ink",
+        "canonical": "oklch(22.8% 0.008 4.1)",
+        "tonalRamp": [
+          "#0E0A0B",
+          "#282223",
+          "#443E3F",
+          "#625C5D",
+          "#827B7D",
+          "#A39C9E",
+          "#C9C2C3",
+          "#F4ECEE"
+        ]
+      },
+      "tinta-suave": {
+        "role": "neutral",
+        "displayName": "Faded Menu Ink",
+        "canonical": "oklch(46.2% 0.012 2.4)",
+        "tonalRamp": [
+          "#10090B",
+          "#292223",
+          "#463D3F",
+          "#645B5D",
+          "#847A7C",
+          "#A59B9E",
+          "#CBC1C3",
+          "#F6EBEE"
+        ]
+      },
+      "bordo": {
+        "role": "primary",
+        "displayName": "Ysconderijo Oxblood",
+        "canonical": "oklch(34.1% 0.078 19.9)",
+        "tonalRamp": [
+          "#230001",
+          "#420F14",
+          "#632D2E",
+          "#844B4B",
+          "#A76A6A",
+          "#CB8B8A",
+          "#F3B0AF",
+          "#FFDAD9"
+        ]
+      },
+      "sobre-bordo": {
+        "role": "neutral",
+        "displayName": "Rosé Linen",
+        "canonical": "oklch(87.8% 0.018 35.3)",
+        "tonalRamp": [
+          "#120906",
+          "#2C211E",
+          "#493D39",
+          "#675A57",
+          "#877A76",
+          "#A99B97",
+          "#CFC0BC",
+          "#FAEBE7"
+        ]
+      },
+      "sobre-bordo-suave": {
+        "role": "neutral",
+        "displayName": "Dusty Rosé",
+        "canonical": "oklch(79.6% 0.027 35.7)",
+        "tonalRamp": [
+          "#150704",
+          "#301F1B",
+          "#4D3B36",
+          "#6C5953",
+          "#8C7872",
+          "#AE9993",
+          "#D5BEB8",
+          "#FFE9E2"
+        ]
+      },
+      "cobre": {
+        "role": "secondary",
+        "displayName": "Logo Copper",
+        "canonical": "oklch(71.4% 0.070 43.0)",
+        "tonalRamp": [
+          "#200000",
+          "#3F1604",
+          "#5E3220",
+          "#7F503D",
+          "#A1705C",
+          "#C4917C",
+          "#ECB6A0",
+          "#FFE0CA"
+        ]
+      },
+      "acafrao": {
+        "role": "tertiary",
+        "displayName": "Saffron Sauce",
+        "canonical": "oklch(77.0% 0.139 80.0)",
+        "tonalRamp": [
+          "#250000",
+          "#441200",
+          "#603500",
+          "#805400",
+          "#A27409",
+          "#C5953B",
+          "#EDBB64",
+          "#FFE68E"
+        ]
+      },
+      "balsamico": {
+        "role": "tertiary",
+        "displayName": "Balsamic Swoosh",
+        "canonical": "oklch(27.0% 0.046 24.7)",
+        "tonalRamp": [
+          "#1B0303",
+          "#371B19",
+          "#563633",
+          "#765451",
+          "#977370",
+          "#BA9490",
+          "#E1B9B5",
+          "#FFE3DF"
+        ]
+      },
+      "wasabi": {
+        "role": "tertiary",
+        "displayName": "Wasabi (open now)",
+        "canonical": "oklch(77.9% 0.120 124.0)",
+        "tonalRamp": [
+          "#041000",
+          "#192B00",
+          "#334900",
+          "#506800",
+          "#6F892F",
+          "#8FAB52",
+          "#B4D178",
+          "#DEFDA2"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display",
+        "purpose": "The opening headline only."
+      },
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "Section titles: the menu, the house, booking."
+      },
+      "title": {
+        "displayName": "Title",
+        "purpose": "Dish names and prices, in tabular lining figures."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Descriptions and running text."
+      },
+      "label": {
+        "displayName": "Label",
+        "purpose": "Footer column labels only, uppercase."
+      },
+      "signature": {
+        "displayName": "Signature",
+        "purpose": "The restaurant's name, nothing else."
+      }
+    },
+    "shadows": [
+      {
+        "name": "plate-on-table",
+        "value": "drop-shadow(0 34px 40px rgba(0, 0, 0, .55))",
+        "purpose": "Filter on the charger plate in the opening."
+      },
+      {
+        "name": "plate-on-porcelain",
+        "value": "0 0 0 10px #E9E4E0, 0 18px 30px -12px rgba(32, 27, 28, .35)",
+        "purpose": "Round photo well on the porcelain menu; the first layer is its rim."
+      },
+      {
+        "name": "floating-bar",
+        "value": "0 14px 30px -10px rgba(0, 0, 0, .6)",
+        "purpose": "The mobile phone bar over content."
+      }
+    ],
+    "motion": [
+      {
+        "name": "ease",
+        "value": "cubic-bezier(.16, 1, .3, 1)",
+        "purpose": "Every hover and state transition (0.25s to 0.45s)."
+      },
+      {
+        "name": "served-plate",
+        "value": "scroll-driven: e1 = easeOutCubic(p / 0.4) turns the plate from -7deg to 0 and scales .95 to 1; e2 = easeOutCubic((p - 0.3) / 0.7) grows a porcelain clip-path circle from the plate edge to 78vmax",
+        "purpose": "The single signature moment of the opening; off with reduced motion or without JavaScript."
+      },
+      {
+        "name": "phone-bar",
+        "value": "transform and opacity .35s, visibility switched after",
+        "purpose": "Bottom phone bar on phones, shown only while no other booking button is on screen."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "narrow",
+        "value": "380px"
+      },
+      {
+        "name": "phone",
+        "value": "480px"
+      },
+      {
+        "name": "header-call",
+        "value": "520px"
+      },
+      {
+        "name": "two-column",
+        "value": "700px"
+      },
+      {
+        "name": "wide",
+        "value": "900px"
+      },
+      {
+        "name": "three-column",
+        "value": "1024px"
+      },
+      {
+        "name": "margin-photo",
+        "value": "1360px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Booking Pill",
+      "kind": "button",
+      "refersTo": "button-reserve",
+      "description": "The primary action everywhere: graded saffron dots leading into a porcelain pill with the phone number.",
+      "html": "<div class=\"ds-table\"><a class=\"ds-reserve\" href=\"tel:+351967139381\"><span class=\"ds-dots\" aria-hidden=\"true\"><i></i><i></i><i></i><i></i></span><span class=\"ds-reserve-pill\">Reservar mesa <span class=\"ds-num\">967 139 381</span></span></a></div>",
+      "css": ".ds-table { background: #1A1617; padding: 32px; } .ds-dots { display: inline-flex; align-items: center; gap: 7px; } .ds-dots i { display: block; border-radius: 50%; background: #E2A93B; transition: transform .45s cubic-bezier(.16,1,.3,1); } .ds-dots i:nth-child(1){width:15px;height:15px} .ds-dots i:nth-child(2){width:11px;height:11px} .ds-dots i:nth-child(3){width:7.5px;height:7.5px} .ds-dots i:nth-child(4){width:5px;height:5px} .ds-reserve { display: inline-flex; align-items: center; gap: 14px; text-decoration: none; color: #201B1C; border-radius: 999px; } .ds-reserve-pill { display: inline-flex; align-items: baseline; gap: 12px; min-height: 56px; padding: 16px 28px; border-radius: 999px; background: #F6F4F1; font: 650 17px/1.4 'Ysabeau Office', 'Segoe UI', sans-serif; white-space: nowrap; transition: background-color .25s cubic-bezier(.16,1,.3,1), transform .25s cubic-bezier(.16,1,.3,1); } .ds-num { font: 600 18px 'Bodoni Moda', Didot, Georgia, serif; font-variant-numeric: lining-nums tabular-nums; } .ds-reserve:hover .ds-reserve-pill { background: #FCFBF9; } .ds-reserve:hover .ds-dots i { transform: scale(1.25); } .ds-reserve:active .ds-reserve-pill { transform: translateY(1px); } .ds-reserve:focus-visible { outline: 2px solid #E2A93B; outline-offset: 3px; }"
+    },
+    {
+      "name": "Call Outline",
+      "kind": "button",
+      "refersTo": "button-call-outline",
+      "description": "Header call button on the table: hairline pill with a phone icon.",
+      "html": "<div class=\"ds-table\"><a class=\"ds-call\" href=\"tel:+351967139381\"><svg viewBox=\"0 0 24 24\" width=\"18\" height=\"18\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z\"/></svg><span>Reservar</span></a></div>",
+      "css": ".ds-table { background: #1A1617; padding: 32px; } .ds-call { display: inline-flex; align-items: center; gap: 10px; min-height: 44px; padding: 0 18px; border-radius: 999px; border: 1px solid rgba(243,239,235,.16); color: #F3EFEB; font: 600 16px 'Ysabeau Office', 'Segoe UI', sans-serif; text-decoration: none; transition: border-color .25s, background-color .25s; } .ds-call:hover { border-color: #C99580; background: #241E1F; } .ds-call:focus-visible { outline: 2px solid #E2A93B; outline-offset: 3px; }"
+    },
+    {
+      "name": "Logo Capsule",
+      "kind": "nav",
+      "refersTo": "logo-capsule",
+      "description": "Oxblood capsule with copper double rule and the name in script: the brand mark in header and footer.",
+      "html": "<div class=\"ds-table\"><a class=\"ds-logo\" href=\"#\"><span class=\"ds-logo-name\">Ysconderijo</span></a></div>",
+      "css": ".ds-table { background: #1A1617; padding: 32px; } .ds-logo { display: inline-flex; align-items: center; height: 52px; padding: 0 22px; border-radius: 999px; background: #5A2527; box-shadow: inset 0 0 0 1px #C99580, inset 0 0 0 4px #5A2527, inset 0 0 0 5px rgba(201,149,128,.3); color: #C99580; text-decoration: none; } .ds-logo-name { font: 400 31px/1 'Alex Brush', cursive; padding-top: 6px; } .ds-logo:focus-visible { outline: 2px solid #E2A93B; outline-offset: 3px; }"
+    },
+    {
+      "name": "Language Switch",
+      "kind": "nav",
+      "description": "PT EN ES as 44px targets; the current language in saffron.",
+      "html": "<div class=\"ds-table\"><nav class=\"ds-lang\" aria-label=\"Idioma\"><a href=\"#\" aria-current=\"page\">PT</a><a href=\"#\">EN</a><a href=\"#\">ES</a></nav></div>",
+      "css": ".ds-table { background: #1A1617; padding: 32px; } .ds-lang { display: flex; gap: 2px; } .ds-lang a { display: inline-grid; place-items: center; min-width: 44px; min-height: 44px; border-radius: 999px; color: #B8ADAA; font: 600 15px 'Ysabeau Office', 'Segoe UI', sans-serif; letter-spacing: .04em; text-decoration: none; transition: color .25s, background-color .25s; } .ds-lang a:hover { color: #F3EFEB; background: #241E1F; } .ds-lang a[aria-current=page] { color: #E2A93B; } .ds-lang a:focus-visible { outline: 2px solid #E2A93B; outline-offset: 3px; }"
+    },
+    {
+      "name": "Menu Row",
+      "kind": "custom",
+      "description": "A dish on porcelain: name and price on the first line, what is on the plate below, hairline separators.",
+      "html": "<div class=\"ds-porcelain\"><ul class=\"ds-menu\"><li><span class=\"ds-dish\">Costeletas de borrego</span><span class=\"ds-price\">24 €</span><span class=\"ds-desc\">do lombo, grelhadas, com legumes, puré de batata-doce roxa e molho de mirtilos</span></li><li><span class=\"ds-dish\">Peito de pato</span><span class=\"ds-price ds-tbc\">[preço]</span><span class=\"ds-desc\">laminado, com gomos de laranja, rúcula e cubos de batata com ervas finas</span></li></ul></div>",
+      "css": ".ds-porcelain { background: #F6F4F1; color: #201B1C; padding: 32px; } .ds-menu { list-style: none; margin: 0; padding: 0; max-width: 620px; } .ds-menu li { display: grid; grid-template-columns: minmax(0,1fr) auto; grid-template-areas: \"nome preco\" \"desc .\"; column-gap: 24px; row-gap: 4px; padding: 18px 0; border-top: 1px solid rgba(32,27,28,.14); } .ds-menu li:last-child { border-bottom: 1px solid rgba(32,27,28,.14); } .ds-dish { grid-area: nome; font: 560 22px/1.3 'Bodoni Moda', Didot, Georgia, serif; } .ds-price { grid-area: preco; font: 560 22px/1.3 'Bodoni Moda', Didot, Georgia, serif; font-variant-numeric: lining-nums tabular-nums; white-space: nowrap; } .ds-tbc { color: #5A2527; font: 600 16px 'Ysabeau Office', 'Segoe UI', sans-serif; } .ds-desc { grid-area: desc; color: #5F5658; font: 420 17px/1.5 'Ysabeau Office', 'Segoe UI', sans-serif; }"
+    },
+    {
+      "name": "Course Band",
+      "kind": "custom",
+      "description": "The logo's copper three-line band above a course name: the only rule between courses.",
+      "html": "<div class=\"ds-porcelain\"><div class=\"ds-course\"><span class=\"ds-band\" aria-hidden=\"true\"></span><h3>Peixe</h3></div></div>",
+      "css": ".ds-porcelain { background: #F6F4F1; color: #201B1C; padding: 32px; } .ds-course { display: flex; flex-direction: column; align-items: center; gap: 14px; } .ds-band { width: 112px; height: 9px; background: linear-gradient(#C99580,#C99580) 0 0/100% 1px no-repeat, linear-gradient(#C99580,#C99580) 0 4px/100% 1px no-repeat, linear-gradient(#C99580,#C99580) 0 8px/100% 1px no-repeat; } .ds-course h3 { margin: 0; font: 500 34px/1.04 'Bodoni Moda', Didot, Georgia, serif; }"
+    },
+    {
+      "name": "Live Status",
+      "kind": "chip",
+      "description": "Opening status in Lisbon time: saffron dot (wasabi when open) and a sentence.",
+      "html": "<div class=\"ds-table\"><p class=\"ds-status\"><span class=\"ds-dot\"></span><span class=\"ds-status-text\">Abre hoje às 19:00</span><span class=\"ds-sep\">·</span><span>Pagamento só em dinheiro</span></p><p class=\"ds-status ds-open\"><span class=\"ds-dot\"></span><span class=\"ds-status-text\">Aberto agora, até às 23:30</span></p></div>",
+      "css": ".ds-table { background: #1A1617; padding: 32px; } .ds-status { display: flex; align-items: center; gap: 10px; margin: 0 0 12px; color: #B8ADAA; font: 420 16px 'Ysabeau Office', 'Segoe UI', sans-serif; } .ds-dot { width: 9px; height: 9px; border-radius: 50%; background: #E2A93B; } .ds-open .ds-dot { background: #A7C46B; } .ds-status-text { color: #F3EFEB; font-weight: 600; } .ds-sep { color: #C99580; }"
+    },
+    {
+      "name": "Booking Step",
+      "kind": "custom",
+      "refersTo": "step-number",
+      "description": "Numbered step on the oxblood charger: saffron disc with a Bodoni numeral.",
+      "html": "<div class=\"ds-oxblood\"><div class=\"ds-step\"><span class=\"ds-step-n\">2</span><p><strong>Traga dinheiro.</strong> A casa não aceita cartões.</p></div></div>",
+      "css": ".ds-oxblood { background: #5A2527; padding: 32px; } .ds-step { display: flex; gap: 18px; align-items: flex-start; } .ds-step-n { flex: none; display: grid; place-items: center; width: 40px; height: 40px; border-radius: 50%; background: #E2A93B; color: #1A1617; font: 650 18px 'Bodoni Moda', Didot, Georgia, serif; } .ds-step p { margin: 0; padding-top: 6px; color: #E2D3CF; font: 420 18px/1.6 'Ysabeau Office', 'Segoe UI', sans-serif; } .ds-step strong { color: #F3EFEB; font-weight: 650; }"
+    }
+  ],
+  "narrative": {
+    "northStar": "Empratamento",
+    "overview": "The page is plated the way the Ysconderijo kitchen plates. A night table runs the whole page as its ground; porcelain is where things are read; the logo's oxblood is the charger plate under it all and the field where a table gets booked. Composition sits on one central axis, like the centre line of a plate, with generous dark rim around every element. Ornament is limited to what a chef puts on a plate: graded dots of saffron sauce that lead the eye to the phone number, a single balsamic swoosh, and the copper hairline bands taken from the restaurant's own logo.\n\nThe surface alternates between two materials and never mixes them inside one block: dark table (opening, the house, footer), porcelain (the menu), oxblood (booking). Real photographs of the restaurant's food and room are the only pictures, each one framed as a plate: a round well or a capsule. One lit plate per screen; darkness is the space around it. Motion is a single authored moment, the plate being served, and everything else stays still.\n\nThe type speaks like a fine-dining menu: a Didone display with hairline contrast (the same fineness as the logo's gold lines), a calligraphic humanist text face, and the script of the logo for the name only.",
+    "keyCharacteristics": [
+      "One central axis; centred headings, left-aligned reading columns hung on it.",
+      "Three materials by section: night table, porcelain, oxblood charger.",
+      "Saffron dots graded large to small always lead to the booking phone.",
+      "Copper three-line bands (from the logo) are the only rules between courses.",
+      "Photos sit in round wells or the logo's capsule; nothing else is framed.",
+      "Prices and hours in tabular lining figures."
+    ],
+    "rules": [
+      {
+        "name": "The Sauce Leads Rule",
+        "body": "Saffron appears as graded dots only where they lead somewhere: to the phone, to today, to the open state. It never decorates.",
+        "section": "colors"
+      },
+      {
+        "name": "The Three Materials Rule",
+        "body": "A block is table, porcelain or oxblood. Never a porcelain card on the table or an oxblood box on porcelain.",
+        "section": "colors"
+      },
+      {
+        "name": "The Menu Card Rule",
+        "body": "Every dish keeps three fixed tiers in the same order in every language: name (Title), what is on the plate (Body, faded ink), price (Title, right column).",
+        "section": "typography"
+      },
+      {
+        "name": "The Name Is Script Rule",
+        "body": "Alex Brush sets \"Ysconderijo\" and nothing else.",
+        "section": "typography"
+      },
+      {
+        "name": "The Only Shadow Is a Plate Rule",
+        "body": "If it is not a plate resting on something, it has no shadow.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "**Do** lead every booking action with the graded saffron dots, and keep the phone number in Bodoni tabular figures.",
+      "**Do** keep each block in one material: table, porcelain or oxblood.",
+      "**Do** frame photographs as plates (round well) or in the logo capsule, one per screen.",
+      "**Do** use copper three-line bands for rules between courses and around oxblood edges.",
+      "**Do** keep text contrast at AA on every material (copper never on porcelain)."
+    ],
+    "donts": [
+      "**Don't** add cards, tiles or boxed containers; the menu is rows on porcelain.",
+      "**Don't** add a second swoosh or scatter sauce dots as decoration.",
+      "**Don't** add shadows that are not a plate resting on something.",
+      "**Don't** use Alex Brush for anything but the restaurant's name.",
+      "**Don't** add a second scroll-driven effect or any infinite animation; the served plate is the only motion moment."
+    ]
+  }
+}
